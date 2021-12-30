@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    // "lib": ["dom", "esnext"],
     "module": "esnext",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
     "rootDir": "./src",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -22,14 +25,13 @@
   },
   "ts-node": {
     "compilerOptions": {
+      "target": "es2015",
       "module": "CommonJS"
     }
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.tsx",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "src/**/*.js",
   ],
   "exclude": [
     "node_modules",

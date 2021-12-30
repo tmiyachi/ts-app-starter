@@ -1,4 +1,3 @@
-// entry point file
 class Greeter {
   element: HTMLElement;
   span: HTMLElement;

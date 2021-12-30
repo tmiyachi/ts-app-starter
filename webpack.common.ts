@@ -20,12 +20,8 @@ const commonConfig: webpack.Configuration = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|ts)$/,
         loader: 'babel-loader',
-      },
-      {
-        test: /\.ts$/,
-        loader: 'ts-loader',
       },
       {
         test: /\.(sc|c|sa|)ss$/,
