@@ -55,6 +55,6 @@
   "author": "tmiyachi",
   "license": "MIT",
   "dependencies": {
-    "core-js": "^3.20.1"
+    "core-js": "^3.20.2"
   }
 }
