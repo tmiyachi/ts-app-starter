@@ -1,10 +1,10 @@
 import * as path from 'path';
-import * as webpack from 'webpack';
+import type { Configuration } from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-const commonConfig: webpack.Configuration = {
+const commonConfig: Configuration = {
   entry: path.resolve(__dirname, 'src/index.ts'),
   output: {
     path: path.resolve(__dirname, 'dist'),
