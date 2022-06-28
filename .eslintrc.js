@@ -17,5 +17,6 @@ module.exports = {
   ],
   rules: {
     'consistent-return': 'error',
+    'no-sequences': 'error',
   },
 };
